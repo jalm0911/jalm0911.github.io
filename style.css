@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    grid-template: 150px 1fr 50px / 200px 1fr;
+    grid-template-areas: "header header" "nav main" "footer footer";
+    grid-gap: 5px;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
